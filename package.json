@@ -1,0 +1,15 @@
+{
+  "name": "@deck/skin-light",
+  "version": "1.0.3",
+  "main": "main.styl",
+  "author": "David Mark Clements",
+  "license": "MIT",
+  "scripts": {},
+  "files": [
+    "images",
+    "diagrams.styl",
+    "main.styl",
+    "master-slides.styl",
+    "universe.styl"
+  ]
+}

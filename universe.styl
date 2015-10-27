@@ -1,0 +1,69 @@
+body
+  background black
+
+.bespoke-parent
+  background #000
+  color rgba(255, 255, 255, 0.8)
+
+.bespoke-slide
+  background rgb(70, 72, 61)
+  background-image url('../images/logo.png')
+  background-position 99% 98.25%
+  background-repeat no-repeat
+  background-size 18%
+
+h1
+  font-family: 'Gill Sans', 'Verdanda', sans-serif;
+
+
+h1:after
+  border: 3px solid #000;
+  border-left: none;
+  border-right: none;
+  display: flex;
+  content: '';
+  height: 2px;
+  margin-top: 3px;
+  width: 660px;
+  margin-left: -14px;
+
+table
+  border-bottom: dotted 1px #e3e5e8
+
+thead
+  background #8c2425
+  color #fff
+
+tbody
+  tr:nth-child(odd)
+    background #e3e5e8
+
+
+a, a:visited, a:active, a:link
+  font-size 0.8em
+  color: #74a723
+
+
+.language-sh, .language-bash
+  outline 1px solid cream
+
+
+.section-title, .title-page, .image-no-title
+  justify-content center
+
+
+pre.language-javascript
+  border 1px solid #861001
+
+
+code.language-sh, code.language-bash
+  background #022550
+  color white
+  border 1px solid #1167bd
+
+pre[class*="language-"]
+  padding: 0.03em
+  text-shadow: none
+  span
+    text-shadow: none
+
