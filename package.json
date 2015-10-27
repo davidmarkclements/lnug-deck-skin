@@ -1,6 +1,6 @@
 {
-  "name": "@deck/skin-light",
-  "version": "1.0.3",
+  "name": "lnug-deck-skin",
+  "version": "1.0.0",
   "main": "main.styl",
   "author": "David Mark Clements",
   "license": "MIT",
