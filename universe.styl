@@ -10,22 +10,11 @@ body
   background-image url('../images/logo.png')
   background-position 99% 98.25%
   background-repeat no-repeat
-  background-size 18%
+  background-size 14%
 
 h1
-  font-family: 'Gill Sans', 'Verdanda', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
-
-h1:after
-  border: 3px solid #000;
-  border-left: none;
-  border-right: none;
-  display: flex;
-  content: '';
-  height: 2px;
-  margin-top: 3px;
-  width: 660px;
-  margin-left: -14px;
 
 table
   border-bottom: dotted 1px #e3e5e8
@@ -41,7 +30,7 @@ tbody
 
 a, a:visited, a:active, a:link
   font-size 0.8em
-  color: #74a723
+  color: rgba(190,213,46,0.8)
 
 
 .language-sh, .language-bash
@@ -53,17 +42,21 @@ a, a:visited, a:active, a:link
 
 
 pre.language-javascript
-  border 1px solid #861001
+  border 1px solid rgba(255, 255, 255, 0.225)
 
 
 code.language-sh, code.language-bash
-  background #022550
-  color white
-  border 1px solid #1167bd
+  background rgb(70, 72, 61)
+  color rgba(190,213,46,0.8)
+  border 1px solid rgb(83, 85, 74)
 
 pre[class*="language-"]
   padding: 0.03em
   text-shadow: none
   span
     text-shadow: none
+
+.hljs.language-javascript, .hljs.language-sh, .hljs.language-bash
+  text-shadow: none
+  color: rgba(255, 255, 255, 0.8)
 
